@@ -59,6 +59,7 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/yonas-assefa-74334b224/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <AiFillLinkedin />
               </a>
@@ -67,7 +68,12 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={pic2} layout="fill" objectFit="cover" />
+              <Image
+                alt="my_image"
+                src={pic2}
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
           </div>
         </section>
@@ -77,7 +83,7 @@ export default function Home() {
               Services
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-center">
-              I'm here to bring your digital dreams to life and help your
+              I&apos;m here to bring your digital dreams to life and help your
               business thrive in the digital landscape. As a seasoned full-stack
               developer, I offer a wide range of services that empower your
               brand, streamline your operations, and enhance your online
@@ -91,6 +97,7 @@ export default function Home() {
                 src={frontend}
                 width={100}
                 height={100}
+                alt="image1"
               />
               <h3 className="text-lg font-medium pb-2  ">
                 Front-end Development
@@ -120,7 +127,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={backend} width={100} height={100} />
+              <Image src={backend} width={100} height={100} alt="image2" />
               <h3 className="text-lg font-medium pb-2  ">
                 Back-end Development
               </h3>
@@ -149,7 +156,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={comptetive} width={100} height={100} />
+              <Image src={comptetive} width={100} height={100} alt="image3" />
               <h3 className="text-lg font-medium pb-2  ">
                 Comptetive Programming
               </h3>
@@ -186,7 +193,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelancer and developer,
-              I've done remote work for
+              I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               and <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -202,6 +209,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={proj1}
+                alt="rateeat image"
               />
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <p className="text-white bg-black bg-opacity-75 rounded-lg p-2 w-full h-full text-center">
@@ -217,6 +225,7 @@ export default function Home() {
                     className="bg-gradient-to-r from-cyan-700 text- to-teal-900 text-white px-2 py-1 my-4 border-none rounded-md ml-8"
                     href="https://rateeat.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Link
                   </a>
@@ -231,6 +240,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={proj2}
+                alt="shemeta image"
               />
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <p className="text-white bg-black bg-opacity-75 rounded-lg p-2 w-full h-full text-center">
@@ -247,6 +257,7 @@ export default function Home() {
                     className="bg-gradient-to-r from-cyan-700 text- to-teal-900 text-white px-2 py-1 my-4 border-none rounded-md ml-8"
                     href="https://shemeta.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Link
                   </a>
@@ -261,6 +272,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={hakimhub}
+                alt="hakimhub image"
               />
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <p className="text-white bg-black bg-opacity-75 rounded-lg p-2 w-full h-full text-center">
@@ -276,6 +288,7 @@ export default function Home() {
                     className="bg-gradient-to-r from-cyan-700 text- to-teal-900 text-white px-2 py-1 my-4 border-none rounded-md ml-8"
                     href="https://hakimhubweb.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Link
                   </a>
@@ -290,6 +303,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={atrons}
+                alt="atrons image"
               />
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <p className="text-white bg-black bg-opacity-75 rounded-lg p-2 w-full h-full text-center">
@@ -304,6 +318,7 @@ export default function Home() {
                     className="bg-gradient-to-r from-cyan-700 text- to-teal-900 text-white px-2 py-1 my-4 border-none rounded-md ml-8"
                     href="https://atrons.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Link
                   </a>
